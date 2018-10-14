@@ -1,0 +1,18 @@
+#叠加等边三角形
+from turtle import*
+setup(800,500,10,10)
+pensize(3)
+fd(200)
+seth(120)
+fd(200)
+seth(-120)
+fd(200)
+up()
+fd(-100)
+down()
+seth(-60)
+fd(100)
+seth(60)
+fd(100)
+seth(180)
+fd(100)
